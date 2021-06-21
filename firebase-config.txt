@@ -1,0 +1,11 @@
+  var firebaseConfig = {
+    apiKey: "AIzaSyBURIuR6e-p-zsmUw-p9cfhZ2VPaLRRK7k",
+    authDomain: "collab-database.firebaseapp.com",
+    databaseURL: "https://collab-database-default-rtdb.firebaseio.com",
+    projectId: "collab-database",
+    storageBucket: "collab-database.appspot.com",
+    messagingSenderId: "896498122744",
+    appId: "1:896498122744:web:044e5019310fdd0033600d"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);

@@ -1,0 +1,70 @@
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+#color_change {
+    background-color: rgb(172, 211, 255);
+}
+
+.heading {
+    width: 100%;
+    cursor: default;
+}
+
+#output {
+    padding: 10px;
+    width: 50%;
+    background: #ffffff;
+    border-radius: 20px;
+}
+
+.input_div_message_page {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.input_div_message_page #msg {
+    width: 60%;
+    border-radius: 30px;
+}
+
+.input_div_message_page button {
+    background-position: center;
+    background-size: cover;
+    width: 20%;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+
+.input_div_message_page i {
+    color: blue;
+}
+
+.color_white {
+    color: white
+}
+
+.user_tick {
+    width: 30px;
+    border-radius: 50%;
+}
+
+.message_h4 {
+    padding-left: 5px;
+    color: grey;
+    font-size: 16px;
+}
+
+.username_h4 {
+    font-size: 18px;
+}
+
+.btn-warning {
+    color: white;
+    float: right;
+    border-radius: 30px;
+    margin-right: 10px;
+}

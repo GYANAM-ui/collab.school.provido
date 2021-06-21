@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./src/styles/style.css">
+    <link rel="shortcut icon" href="./public/images/appletouchicon.png" type="image/x-icon">
+    <title>ProVdo School Collab</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body style="background: rgb(189, 189, 189);">
+    <h2 class="btn btn-primary heading">
+        <b>
+            Hello Champ! Collab with your friends!
+        </b>
+    </h2>
+
+    <a href="" class="btn btn-success" id="bubble">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-right-text-fill" viewBox="0 0 16 16">
+            <path d="M16 2a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h9.586a1 1 0 0 1 .707.293l2.853 2.853a.5.5 0 0 0 .854-.353V2zM3.5 3h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1 0-1zm0 2.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1 0-1zm0 2.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1z"/>
+        </svg>
+    </a>
+
+    <center>
+        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-11 invalid_error" id="invalid_error">
+            <span style="color: red;">
+                <i class="fa fa-warning">&nbsp;</i>
+                Invalid details
+            </span>
+        </div>
+        <br>
+    </center>
+
+    <center>
+        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-11 login_div">
+            <br>
+            <div class="form-group">
+                <label>Enter your name: </label>
+                <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name">
+                <label>Enter your collab ID: </label>
+                <input type="text" name="room" id="room" class="form-control" placeholder="Enter your collab id">
+                <br><br>
+                <button class="btn btn-primary" onclick="getStarted()">Collab with friends</button>
+            </div>
+            <br>
+            <h4 style="font-family: 'Dancing Script', cursive;">From ProVido</h4>
+        </div>
+    </center>
+
+    <center>
+        <br><br>
+        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-11 note_div">
+            <br>
+            <div class="form-group">
+                <p>
+                    Your Collab Id should make with <b>@</b>, So you need to remember you Collab Id in <b>@yourcollabid</b>.
+                </p>
+            </div>
+            <br>
+        </div>
+        <br>
+        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-11 note_div">
+            <br>
+            <div class="form-group">
+                <p>
+                    In <b>ProVido Meetings</b> 75+ members can join in one video meeting room. Happy Meeting!
+                </p>
+            </div>
+            <br>
+        </div>
+        <br>
+    </center>
+
+    <script type="text/javascript" src="./src/login.js"></script>
+</body>
+
+</html>
